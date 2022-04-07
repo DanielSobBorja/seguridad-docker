@@ -43,5 +43,5 @@ Ahora usamos esos privilegios para montar el socket del docker.
 
 
 ## D: Seguridad en IMÁGENES
-
+Las imágenes pueden contener malware, por lo que es no es seguro confiar en imágenes ya construídas.
 

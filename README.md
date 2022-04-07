@@ -23,5 +23,25 @@ El demonio de docker también tenemos que protegerlo debido a que tiene las capa
 ## C: Seguridad en CONTENEDORES
 Principalmente vamos a reforzar nuestros contenedores. Primero limito su capacidad mediante el siguiente comando:
 
+![imagen](https://user-images.githubusercontent.com/91564560/162219674-d2d446f1-c2c1-4251-b4c7-3d23e2661c3c.png)
+
+A continuación, asigno el número de CPUs a su disposición, 0.5 en este caso.
+
+![imagen](https://user-images.githubusercontent.com/91564560/162220185-831b62a8-2556-4dd5-91e1-7f1bfc5dff93.png)
+
+También podemos indicar el método de reinicio del contenedor mediante el parámetro ```--restart```. Por defecto no intentará reiniciarse, pero podemos ponerle el valor ```on-failure``` para que intente reiniciarse cuando falle.
+
+![imagen](https://user-images.githubusercontent.com/91564560/162221269-a2a19b84-ce9a-4a7a-b32e-24130c8318c8.png)
+
+También se pueden asignar privilegios:
+
+![imagen](https://user-images.githubusercontent.com/91564560/162221728-b5b5c6e1-275e-427e-b94b-d46d2f9f2659.png)
+
+Ahora usamos esos privilegios para montar el socket del docker.
+
+![imagen](https://user-images.githubusercontent.com/91564560/162222022-3cc40a9a-7a2e-41ea-b9a5-4de8a84af3de.png)
+
+
+## D: Seguridad en IMÁGENES
 
 

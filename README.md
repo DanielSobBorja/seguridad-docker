@@ -49,6 +49,6 @@ Se puede hacer una imagen a partir de un repositorio en GitHub como por ejemplo,
 
 ![docker pull](https://user-images.githubusercontent.com/91564560/169323062-1e9c4b73-b197-404b-840d-0395248b2d29.png)
 
-También podemos usar `docker search` para buscar imágenes en github. Nos mostrará las estrellas que ha recibido, entre otros.
+También podemos usar `docker search` para buscar imágenes. Nos mostrará las estrellas que ha recibido, entre otros.
 
 ![imagen](https://user-images.githubusercontent.com/91564560/169323953-e7cc274d-b18a-462e-bcb2-baa15e3fe0a4.png)

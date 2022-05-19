@@ -52,3 +52,7 @@ Se puede hacer una imagen a partir de un repositorio en GitHub como por ejemplo,
 También podemos usar `docker search` para buscar imágenes. Nos mostrará las estrellas que ha recibido, entre otros.
 
 ![imagen](https://user-images.githubusercontent.com/91564560/169323953-e7cc274d-b18a-462e-bcb2-baa15e3fe0a4.png)
+
+Para mayor seguridad podemos hacer que el c
+
+![imagen](https://user-images.githubusercontent.com/91564560/169325429-18a1921e-7c9d-4717-b46a-e6e9952a2207.png)
